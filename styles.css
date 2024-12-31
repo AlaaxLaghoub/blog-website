@@ -185,7 +185,36 @@ header .navigation a:hover {
     transform: scale(1.05);
 }
 
+/* Contact Info Section */
+.contact-info h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
 
+.contact-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.contact-info th,
+.contact-info td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+}
+
+.contact-info th {
+    background-color: #f4f4f9;
+    color: #444;
+    font-weight: bold;
+}
+
+.contact-info tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
 /* Footer */
 footer {
     background-color: #333;
