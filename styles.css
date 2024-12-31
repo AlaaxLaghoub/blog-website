@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f9;
     color: #333;
@@ -12,8 +12,7 @@ body {
 
 main {
     flex: 1;
-        margin: 2rem 0;
-    /* Makes the main content expand and pushes the footer down */
+    margin: 2rem 0;
 }
 
 .container {
@@ -215,6 +214,7 @@ header .navigation a:hover {
 .contact-info tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+
 /* Footer */
 footer {
     background-color: #333;
